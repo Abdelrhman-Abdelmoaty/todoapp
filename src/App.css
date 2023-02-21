@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Bangers";
+  src: local("Bangers"),
+    url(./fonts/Bangers/Bangers-Regular.ttf) format("truetype");
+}
+body {
+  font-family: "Bangers";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  background-color: #222831;
+  color: #222831;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
